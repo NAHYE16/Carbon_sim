@@ -1,0 +1,14 @@
+#
+# Macro file of "exampleB3.cc"
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfThreads 12
+#
+# Initialize kernel
+/run/initialize
+#
+/run/verbose 1
+/control/verbose 1
+/tracking/verbose 0
+#
+/run/beamOn 100

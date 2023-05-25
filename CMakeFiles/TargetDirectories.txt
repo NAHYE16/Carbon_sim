@@ -1,0 +1,8 @@
+/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/install/strip.dir
+/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/install/local.dir
+/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/detSim.dir
+/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/detectorSim.dir
+/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/list_install_components.dir
+/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/edit_cache.dir
+/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/rebuild_cache.dir
+/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/install.dir
