@@ -12,7 +12,10 @@
 /vis/scene/create
 /vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
 /vis/sceneHandler/attach
-/vis/viewer/zoom 1.4
+/vis/viewer/set/viewpointVector -2 1 -1
+/vis/viewer/zoom 2.5
+/vis/scene/add/axes 0 0 0 10 cm
+/vis/scene/notifyHandlers
 /vis/scene/add/trajectories smooth
 /tracking/storeTrajectory 2
 /vis/scene/notifyHandlers
@@ -24,38 +27,9 @@
 /vis/modeling/trajectories/create/drawByParticleID
 /vis/modeling/trajectories/drawByParticleID-0/default/setDrawStepPts true
 /vis/scene/notifyHandlers scene-0
+/vis/modeling/trajectories/drawByParticleID-0/default/setStepPtsSize 5
+/vis/scene/notifyHandlers scene-0
 /vis/scene/endOfEventAction accumulate
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
-/control/execute run.mac
-/run/initialize
-/run/verbose 1
-/control/verbose 1
-/tracking/verbose 0
-/run/beamOn 10
-/vis/scene/notifyHandlers scene-0
-/control/execute run.mac
-/run/initialize
-/run/verbose 1
-/control/verbose 1
-/tracking/verbose 0
-/run/beamOn 50
-/control/execute run.mac
-/run/initialize
-/run/verbose 1
-/control/verbose 1
-/tracking/verbose 0
-/run/beamOn 50
-/control/execute run.mac
-/run/initialize
-/run/verbose 1
-/control/verbose 1
-/tracking/verbose 0
-/run/beamOn 100
-/control/execute run.mac
-/run/initialize
-/run/verbose 1
-/control/verbose 1
-/tracking/verbose 0
-/run/beamOn 100

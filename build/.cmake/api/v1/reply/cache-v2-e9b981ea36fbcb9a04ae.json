@@ -52,10 +52,14 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Choose the type of build, options are: None Release MinSizeRel Debug RelWithDebInfo MinSizeRel."
+				},
+				{
+					"name" : "MODIFIED",
+					"value" : "ON"
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -67,7 +71,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/geant4/itrs/Geant4/DetectorSim/build"
+			"value" : "/home/ycc/Geant4/Carbon_sim/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -91,7 +95,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "16"
+			"value" : "22"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -103,7 +107,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -167,10 +171,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -295,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/gcc"
 		},
 		{
@@ -691,7 +695,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/geant4/itrs/Geant4/DetectorSim"
+			"value" : "/home/ycc/Geant4/Carbon_sim"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -700,10 +704,14 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Install path prefix, prepended onto install directories."
+				},
+				{
+					"name" : "MODIFIED",
+					"value" : "ON"
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/local"
+			"value" : "/home/ycc/Geant4/Carbon_sim"
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
@@ -991,7 +999,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/share/cmake-3.16"
+			"value" : "/usr/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1271,7 +1279,19 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/x86_64-linux-gnu/libexpat.so][/usr/include][v2.2.9(2.2.9)]"
+			"value" : "[/usr/lib/x86_64-linux-gnu/libexpat.so][/usr/include][v2.4.7(2.4.7)]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Geant4",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Geant4"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/home/ycc/background/geant4-v11.1.1/install/lib/cmake/Geant4/Geant4Config.cmake][v11.1.1()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1415,7 +1435,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/opt/geant4/10.07.p03/lib/Geant4-10.7.3"
+			"value" : "/home/ycc/background/geant4-v11.1.1/install/lib/cmake/Geant4"
 		},
 		{
 			"name" : "OPENGL_EGL_INCLUDE_DIR",
@@ -1982,6 +2002,22 @@
 			"value" : ""
 		},
 		{
+			"name" : "PKG_CONFIG_ARGN",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Arguments to supply to pkg-config"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
 			"name" : "PKG_CONFIG_EXECUTABLE",
 			"properties" : 
 			[
@@ -2427,7 +2463,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/opt/geant4/10.07.p03/lib/Geant4-10.7.3/PTL"
+			"value" : "/home/ycc/background/geant4-v11.1.1/install/lib/cmake/Geant4/PTL"
 		},
 		{
 			"name" : "PTL_LIBRARY",
@@ -2440,6 +2476,66 @@
 			],
 			"type" : "INTERNAL",
 			"value" : ""
+		},
+		{
+			"name" : "Qt53DCore_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt53DCore."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt53DCore"
+		},
+		{
+			"name" : "Qt53DExtras_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt53DExtras."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt53DExtras"
+		},
+		{
+			"name" : "Qt53DInput_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt53DInput."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt53DInput"
+		},
+		{
+			"name" : "Qt53DLogic_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt53DLogic."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt53DLogic"
+		},
+		{
+			"name" : "Qt53DRender_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt53DRender."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt53DRender"
 		},
 		{
 			"name" : "Qt5Core_DIR",
@@ -2464,6 +2560,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui"
+		},
+		{
+			"name" : "Qt5Network_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5Network."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Network"
 		},
 		{
 			"name" : "Qt5OpenGL_DIR",
@@ -2556,22 +2664,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libICE.so"
-		},
-		{
-			"name" : "X11_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "X11_LIB_X11_SOLO",
@@ -3571,7 +3663,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/geant4/itrs/Geant4/DetectorSim/build"
+			"value" : "/home/ycc/Geant4/Carbon_sim/build"
+		},
+		{
+			"name" : "detectorSim_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
 		},
 		{
 			"name" : "detectorSim_SOURCE_DIR",
@@ -3583,7 +3687,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/geant4/itrs/Geant4/DetectorSim"
+			"value" : "/home/ycc/Geant4/Carbon_sim"
 		},
 		{
 			"name" : "pkgcfg_lib_PC_EXPAT_expat",

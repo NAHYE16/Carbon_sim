@@ -1,8 +1,8 @@
-/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/install/strip.dir
-/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/install/local.dir
-/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/detSim.dir
-/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/detectorSim.dir
-/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/list_install_components.dir
-/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/edit_cache.dir
-/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/rebuild_cache.dir
-/home/geant4/itrs/Geant4/DetectorSim/CMakeFiles/install.dir
+/home/ycc/Geant4/Carbon_sim/CMakeFiles/detectorSim.dir
+/home/ycc/Geant4/Carbon_sim/CMakeFiles/detSim.dir
+/home/ycc/Geant4/Carbon_sim/CMakeFiles/edit_cache.dir
+/home/ycc/Geant4/Carbon_sim/CMakeFiles/rebuild_cache.dir
+/home/ycc/Geant4/Carbon_sim/CMakeFiles/list_install_components.dir
+/home/ycc/Geant4/Carbon_sim/CMakeFiles/install.dir
+/home/ycc/Geant4/Carbon_sim/CMakeFiles/install/local.dir
+/home/ycc/Geant4/Carbon_sim/CMakeFiles/install/strip.dir

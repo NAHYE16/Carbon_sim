@@ -80,7 +80,7 @@ void RunAction::EndOfRunAction(const G4Run* aRun)
 {
   if(!IsMaster()) return;
 
-  std::ofstream ofp("result_2.dat");
+  std::ofstream ofp("LYSO_200MeVu_cut_re.dat");
   Run* theRun = (Run*)aRun;
   for (int i=0;i<120;i++){
     auto doseValue = theRun ->GetSumDose(i);

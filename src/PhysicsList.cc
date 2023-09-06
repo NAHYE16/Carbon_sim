@@ -32,8 +32,11 @@
 #include "G4DecayPhysics.hh"
 #include "G4EmStandardPhysics.hh"
 #include "G4RadioactiveDecayPhysics.hh"
+#include "G4HadronPhysicsQGSP_BIC.hh"
+#include "G4IonBinaryCascadePhysics.hh"
 
 
+#include "G4SystemOfUnits.hh"
 
 PhysicsList::PhysicsList() 
 : G4VModularPhysicsList(){
@@ -47,6 +50,15 @@ PhysicsList::PhysicsList()
 
   // Radioactive decay
   RegisterPhysics(new G4RadioactiveDecayPhysics());
+
+  // Hadronic physics
+  RegisterPhysics(new G4HadronPhysicsQGSP_BIC());
+
+  // Ion physics
+  RegisterPhysics(new G4IonBinaryCascadePhysics());
+
+
+
 }
 
 
@@ -60,4 +72,7 @@ PhysicsList::~PhysicsList()
 void PhysicsList::SetCuts()
 {
   G4VUserPhysicsList::SetCuts();
+
+    // Set the default cut value 
+	G4double defaultCutValue = 1.0*mm;
 }  

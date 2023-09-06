@@ -7,6 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e676258d942d5592ea97.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -20,7 +21,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -41,14 +42,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "detSim::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-detSim-Debug-2f1901c8e00e4f83c238.json",
+					"jsonFile" : "target-detSim-Release-2f1901c8e00e4f83c238.json",
 					"name" : "detSim",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "detectorSim::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-detectorSim-Debug-34196c3afb0d712d20d8.json",
+					"jsonFile" : "target-detectorSim-Release-37cd58b0a1caf1510b35.json",
 					"name" : "detectorSim",
 					"projectIndex" : 0
 				}
@@ -58,12 +59,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/geant4/itrs/Geant4/DetectorSim/build",
-		"source" : "/home/geant4/itrs/Geant4/DetectorSim"
+		"build" : "/home/ycc/Geant4/Carbon_sim/build",
+		"source" : "/home/ycc/Geant4/Carbon_sim"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 0
+		"minor" : 3
 	}
 }
